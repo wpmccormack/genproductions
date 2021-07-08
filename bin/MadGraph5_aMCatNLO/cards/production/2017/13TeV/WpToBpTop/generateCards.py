@@ -37,5 +37,5 @@ for mwp in MassesWp:
                                 f.write("set param_card mass "+pdgid+" %e\n" % mbp)
                                 f.write("set param_card mass 6000024 %e\n" % mwp)
                                 f.write("set param_card decay 6000024 %e\n" % (mwp * WidthWp))
-                                f.write("set param_card decay "+pdgid+" %e" % (mbp * WidthBp))
+                                f.write("set param_card decay "+pdgid+" %e\n" % (mbp * WidthBp))
                                 f.write("set param_card mass 6 %e\n" % mt)
